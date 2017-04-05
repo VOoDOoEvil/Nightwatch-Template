@@ -1,15 +1,14 @@
 
 exports.command = function() {
 
-    var URL = 'https://shipvio.qestapp.cz/';
-    var URL_BUILD = 'http://localhost:8080/hauler/signIn';
-    var EMAIL = 'kubis.honza@gmail.com';
-    var PASSWORD = 'hesloheslo';
+    var URL = '';
+    var EMAIL = '';
+    var PASSWORD = '';
 
     this
         .url(URL)
-        .setValue('#name', EMAIL)
-        .setValue('#password', PASSWORD)
-        .click('button[type=submit]')
+        .setValue('', EMAIL)
+        .setValue('', PASSWORD)
+        .click('')
         return this;
 };
